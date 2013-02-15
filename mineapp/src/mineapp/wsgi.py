@@ -17,8 +17,8 @@ import os
 import sys
 
 
-sys.path.append('/home/localadmin/workspace/mineapp/src/mineapp')
-sys.path.append('/home/localadmin/workspace/mineapp')
+sys.path.append('/home/localadmin/workspace/Datamine/mineapp/src/mineapp')
+sys.path.append('/home/localadmin/workspace/Datamine/mineapp')
 sys.path.append('/home/localadmin/workspace')
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "settings")
