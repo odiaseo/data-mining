@@ -35,7 +35,7 @@ try:
         
         search_results = []
         for page in range(1,6):
-            search_results.append(twitter_search.search(q=keyword, rpp=20, page=page))
+            search_results.append(twitter_search.search(q=keyword, rpp=200, page=page))
         
         tweets = [ r  for result in search_results for r in result['results'] ]
                 
